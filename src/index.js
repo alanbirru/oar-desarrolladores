@@ -15,6 +15,8 @@ import monarcaImg4 from "./assets/Monarca-Imagenes/monarca-img4.jpg";
 import monarcaImg5 from "./assets/Monarca-Imagenes/monarca-img5.jpg";
 import monarcaImg6 from "./assets/Monarca-Imagenes/monarca-img6.jpg";
 
+import nosotrosImg from "./assets/nosotros-img.png";
+
 const navLinks = [
   { id: "inicio", title: "Inicio" },
   { id: "mis-proyectos", title: "Mis Proyectos" },
@@ -45,7 +47,7 @@ const nuestrasAlianzas = [
 const misProyectos = [
   {
     span: "proyecto",
-    title: "Monarca Residencia",
+    title: "Monarca Residencial",
     content:
       " Las tres colindancias en Mazatlán más importantes de nuestro desarrollo residencial.",
     atracciones: [
@@ -86,7 +88,20 @@ const galeriaMonarcaResidencial = [
     button: "¡VISITA NUESTRO SITIO WEB!",
   },
 ];
-const nosotros = [];
+const nosotros = [
+  {
+    span: "OAR DESARROLLADORES",
+    title: "Asegura e incrementa el valor de tu dinero.",
+    content:
+      "La mejor opción es invertir en un Lote Residencial, ya que además de obtener plusvalía, siempre y cuando sepas elegir bien, asegurarás que tu patrimonio no se pierda o reduzca su valor.",
+    points: [
+      { icon: "", title: "Mejor Servicio" },
+      { icon: "", title: "Monedero Seguro" },
+    ],
+    images: nosotrosImg,
+  },
+];
+
 export {
   navLinks,
   inicio,
