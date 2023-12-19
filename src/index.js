@@ -1,5 +1,6 @@
 import Logo from "./assets/LOGO.png";
 
+// imagenes nuestras alianzas
 import buscaTuCasaLogo from "./assets/Nuestras-Alianzas/busca-tu-casa.png";
 import century21Logo from "./assets/Nuestras-Alianzas/century21.png";
 import diamondLogo from "./assets/Nuestras-Alianzas/diamond.png";
@@ -8,6 +9,7 @@ import kwelFaro from "./assets/Nuestras-Alianzas/kwel-faro.png";
 import mazaryk from "./assets/Nuestras-Alianzas/mazaryk.png";
 import rb4n from "./assets/Nuestras-Alianzas/rb4n.png";
 
+// imagenes acordion de monarca
 import monarcaImg1 from "./assets/Monarca-Imagenes/monarca-img1.jpg";
 import monarcaImg2 from "./assets/Monarca-Imagenes/monarca-img2.jpg";
 import monarcaImg3 from "./assets/Monarca-Imagenes/monarca-img3.jpg";
@@ -15,7 +17,15 @@ import monarcaImg4 from "./assets/Monarca-Imagenes/monarca-img4.jpg";
 import monarcaImg5 from "./assets/Monarca-Imagenes/monarca-img5.jpg";
 import monarcaImg6 from "./assets/Monarca-Imagenes/monarca-img6.jpg";
 
+// imagen de la seccion nosotros
 import nosotrosImg from "./assets/nosotros-img.png";
+
+import coralinaImg1 from "./assets/Coralina-imagenes/coralina-img1.webp";
+import coralinaImg2 from "./assets/Coralina-imagenes/coralina-img2.webp";
+import coralinaImg3 from "./assets/Coralina-imagenes/coralina-img3.webp";
+import coralinaImg4 from "./assets/Coralina-imagenes/coralina-img4.webp";
+import coralinaImg5 from "./assets/Coralina-imagenes/coralina-img5.webp";
+import coralinaImg6 from "./assets/Coralina-imagenes/coralina-img6.webp";
 
 const navLinks = [
   { id: "inicio", title: "Inicio" },
@@ -102,10 +112,28 @@ const nosotros = [
   },
 ];
 
+const galeriaCoralinaResidencial = [
+  {
+    title1: "El Estilo de Vida que Siempre Soñaste",
+    title2: "Coralina Residencial",
+    gallery: [
+      coralinaImg1,
+      coralinaImg2,
+      coralinaImg3,
+      coralinaImg4,
+      coralinaImg5,
+      coralinaImg6,
+    ],
+    button: "¡VISITA NUESTRO SITIO WEB!",
+  },
+];
+
 export {
   navLinks,
   inicio,
   nuestrasAlianzas,
   misProyectos,
   galeriaMonarcaResidencial,
+  nosotros,
+  galeriaCoralinaResidencial,
 };
