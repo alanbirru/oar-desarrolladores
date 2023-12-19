@@ -117,7 +117,7 @@ const nosotros = {
     { icon: engrane, title: "Mejor Servicio" },
     { icon: billetera, title: "Monedero Seguro" },
   ],
-  images: nosotrosImg,
+  image: nosotrosImg,
 };
 
 const galeriaCoralinaResidencial = {
@@ -135,17 +135,41 @@ const galeriaCoralinaResidencial = {
 };
 
 const detalles = {
-  title: "¿Estás listo para invertir en tu futuro?",
   span1: "Una de las mejores inversiones hoy en día es comprar un terreno.",
+  title: "¿Estás listo para invertir en tu futuro?",
   span2:
     "Construye tu hogar justo como lo imaginabas, su valor nunca se pierde.",
   cards: [
-    { title: "rentabilidad segura" },
-    { title: "Construcción" },
-    { title: "Fácil de Mantener" },
-    { title: "Un Lote es un Producto Finito" },
-    { title: "Activos que Trabajan Por Ti" },
-    { title: "Ahorra" },
+    {
+      title: "rentabilidad segura",
+      content:
+        "Es importante que consideres que las inversiones en bienes raíces son inversiones a mediano y largo plazo, pero es por esto que siempre tendrás una rentabilidad segura.",
+    },
+    {
+      title: "Construcción",
+      content:
+        "Este es uno de los mayores valores de un Lote, ya que te permitirá construir una casa, la cual podrás personalizar, a tu gusto y propio ritmo.",
+    },
+    {
+      title: "Fácil de Mantener",
+      content:
+        "Puedes despreocuparte del mantenimiento, ya que para su cuidado se requiere poco tiempo y dinero.",
+    },
+    {
+      title: "Un Lote es un Producto Finito",
+      content:
+        "Eres dueño de un producto limitado y debido al crecimiento demográfico, este puede incrementar su valor, al ser un inmueble de mayor demanda.",
+    },
+    {
+      title: "Activos que Trabajan Por Ti",
+      content:
+        "Los activos son dinero que se irá incrementando con el tiempo sin mayor esfuerzo.",
+    },
+    {
+      title: "Ahorra",
+      content:
+        "Los activos son dinero que se irá incrementando con el tiempo sin mayor esfuerzo.",
+    },
   ],
 };
 
