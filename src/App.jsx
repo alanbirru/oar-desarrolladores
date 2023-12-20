@@ -8,7 +8,7 @@ import Detalles from "./Components/Detalles";
 import VisionMision from "./Components/VisionMision";
 import Reseñas from "./Components/Reseñas";
 import Contacto from "./Components/Contacto";
-import footer from "./Components/Footer";
+import Footer from "./Components/Footer";
 
 const App = () => {
   return <div></div>;
