@@ -11,7 +11,11 @@ import Contacto from "./Components/Contacto";
 import Footer from "./Components/Footer";
 
 const App = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 };
 
 export default App;
