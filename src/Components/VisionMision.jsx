@@ -1,3 +1,5 @@
+import { visionMision } from "../index";
+
 const VisionMision = () => {
   return <div></div>;
 };

@@ -1,3 +1,5 @@
+import { detalles } from "../index";
+
 const Detalles = () => {
   return <div></div>;
 };
