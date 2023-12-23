@@ -1,5 +1,5 @@
 const Galeria = () => {
-  return <div></div>;
+  return <section></section>;
 };
 
 export default Galeria;

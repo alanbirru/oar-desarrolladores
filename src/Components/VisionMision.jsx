@@ -1,7 +1,7 @@
 import { visionMision } from "../index";
 
 const VisionMision = () => {
-  return <div></div>;
+  return <section></section>;
 };
 
 export default VisionMision;

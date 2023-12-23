@@ -1,7 +1,7 @@
 import { nosotros } from "../index";
 
 const Nosotros = () => {
-  return <div></div>;
+  return <section></section>;
 };
 
 export default Nosotros;

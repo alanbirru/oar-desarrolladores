@@ -1,7 +1,7 @@
 import { contacto } from "../index";
 
 const Contacto = () => {
-  return <div>Contacto</div>;
+  return <section></section>;
 };
 
 export default Contacto;

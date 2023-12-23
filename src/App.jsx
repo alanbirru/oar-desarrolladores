@@ -1,5 +1,5 @@
 import Navbar from "./Components/Navbar";
-import inicio from "./Components/Inicio";
+import Inicio from "./Components/Inicio";
 import NuestrasAlanzas from "./Components/NuestrasAlianzas";
 import MisProyectos from "./Components/MisProyectos";
 import Galeria from "./Components/Galeria";
@@ -14,6 +14,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
+      <Inicio />
     </div>
   );
 };

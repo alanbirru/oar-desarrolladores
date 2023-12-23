@@ -1,7 +1,7 @@
 import { detalles } from "../index";
 
 const Detalles = () => {
-  return <div></div>;
+  return <section></section>;
 };
 
 export default Detalles;
