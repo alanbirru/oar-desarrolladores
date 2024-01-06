@@ -35,6 +35,11 @@ import listNumber1 from "./assets/icons/List-Number-1.png";
 import listNumber2 from "./assets/icons/List-Number-2.png";
 import listNumber3 from "./assets/icons/List-Number-3.png";
 
+// gifs de visionMision
+import mision from "./assets/gifs/mision.gif";
+import vision from "./assets/gifs/vision.gif";
+import valores from "./assets/gifs/valores.gif";
+
 // icono de reseñas
 import quoteMark from "./assets/icons/Quote-Mark.png";
 
@@ -68,7 +73,7 @@ const nuestrasAlianzas = [
 ];
 
 const misProyectos = {
-  span: "proyecto",
+  span: "Proyecto",
   title: "Monarca Residencial",
   content:
     " Las tres colindancias en Mazatlán más importantes de nuestro desarrollo residencial.",
@@ -95,8 +100,7 @@ const misProyectos = {
 };
 
 const galeriaMonarcaResidencial = {
-  title1: "Nuestro Principal Producto",
-  title2: "Monarca Residencial",
+  title: "Nuestro Principal Producto Monarca Residencial",
   gallery: [
     monarcaImg1,
     monarcaImg2,
@@ -105,7 +109,7 @@ const galeriaMonarcaResidencial = {
     monarcaImg5,
     monarcaImg6,
   ],
-  button: "¡VISITA NUESTRO SITIO WEB!",
+  link: "https://monarcaresidencial.com.mx",
 };
 
 const nosotros = {
@@ -121,8 +125,7 @@ const nosotros = {
 };
 
 const galeriaCoralinaResidencial = {
-  title1: "El Estilo de Vida que Siempre Soñaste",
-  title2: "Coralina Residencial",
+  title: "El Estilo de Vida que Siempre Soñaste Coralina Residencial",
   gallery: [
     coralinaImg1,
     coralinaImg2,
@@ -131,7 +134,7 @@ const galeriaCoralinaResidencial = {
     coralinaImg5,
     coralinaImg6,
   ],
-  button: "¡VISITA NUESTRO SITIO WEB!",
+  link: "",
 };
 
 const detalles = {
@@ -174,8 +177,8 @@ const detalles = {
 };
 
 const visionMision = {
-  title1: "Mucho más que una",
-  title2: "Desarrolladora",
+  title: "Mucho más que una Desarrolladora",
+
   valores:
     "Honestidad • Lealtad • Tranparencia • Compromiso • Excelencia • Respeto • Innovación",
 
@@ -184,16 +187,19 @@ const visionMision = {
       title: "MISIÓN",
       content:
         "El compromiso de nuestra empresa es brindar a nuestros clientes un servicio profesional y de alta calidad en servicios inmobiliarios, una mejor calidad de vida a travez de nuestros desarrollos.",
+      gif: mision,
     },
     {
       title: "VISIÓN",
       content:
         "Ser una empresa líder, numero uno en el ramo de servicios inmobiliario distinguida por el servicio, atención, eficiencia y calidad empresarial ofrecido a todos nuestros clientes.",
+      gif: vision,
     },
     {
       title: "VALORES",
       content:
         "Somos una empresa comprometida con sus clientes, provedores, colaboradores, competidores y la sociedad es por eso que en OAR nos esforzamaos día con día para lograr todos nuestros objetivos.",
+      gif: valores,
     },
   ],
 };

@@ -4,22 +4,28 @@
 
 html {
   scroll-behavior: smooth;
+  font-family: "Raleway", sans-serif;
 }
 
 @layer base {
   h1 {
+    font-family: "Poppins", sans-serif;
     font-size: 64px;
     font-weight: 700;
   }
   h2 {
+    font-family: "Poppins", sans-serif;
+    color: rgb(126, 126, 126);
     font-size: 48px;
     font-weight: 700;
   }
   h3 {
+    font-family: "Poppins", sans-serif;
     font-size: 32px;
     font-weight: 700;
   }
   h4 {
+    font-family: "Poppins", sans-serif;
     font-size: 28px;
     font-weight: 700;
   }
@@ -29,6 +35,41 @@ html {
   }
   h6 {
     font-size: 20px;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  h4 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  h5 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  h6 {
+    font-size: 16px;
     font-weight: 700;
   }
 }

@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <nav className="flex w-full items-center fixed top-0 z-20 shadow-md lg:py-3 py-5 bg-white">
-      <div className="w-full flex justify-between items-center lg:max-w-[2400px] mx-12">
+      <div className="w-full flex justify-between items-center mx-12">
         <Link
           to="/"
           onClick={() => {
@@ -33,8 +33,8 @@ const Navbar = () => {
               <li
                 key={link.id}
                 className={`${
-                  active === link.title ? " text-blue-400" : "text-gray-500"
-                } cursor-pointer font-bold hover:text-blue-400 transition-all`}
+                  active === link.title ? "text-cyan-500" : "text-gray-500"
+                } cursor-pointer font-bold hover:text-cyan-500 transition-all`}
                 onClick={() => {
                   setActive(link.title);
                 }}
@@ -57,8 +57,8 @@ const Navbar = () => {
 
           <div
             className={`${
-              !toggle ? "opacity-0" : "flex opacity-100"
-            } p-6 absolute  top-24 right-0 mx-4 my-2 min-w-[140px]  z-10 rounded-xl bg-white border-t-4 border-blue-500 shadow-lg transition-all ease-in-out duration-200`}
+              !toggle ? "hidden" : "flex"
+            } p-6 absolute  top-24 right-0 mx-4 my-2 min-w-[140px]  z-10 rounded-xl bg-white border-t-4 border-cyan-500 shadow-lg transition-all ease-in-out duration-200`}
           >
             <ul className="list-none flex justify-end items-start flex-col gap-4 text-lg">
               {navLinks.map((link) => {
@@ -66,8 +66,8 @@ const Navbar = () => {
                   <li
                     key={link.id}
                     className={`${
-                      active === link.title ? " text-blue-400" : "text-gray-700"
-                    } cursor-pointer text-[16px] font-bold hover:text-blue-400 transition-all`}
+                      active === link.title ? "text-cyan-500" : "text-gray-700"
+                    } cursor-pointer text-[16px] font-bold hover:text-cyan-500 transition-all`}
                     onClick={() => {
                       setToggle(!toggle);
                       setActive(link.title);

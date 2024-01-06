@@ -10,11 +10,35 @@ import Reseñas from "./Components/Reseñas";
 import Contacto from "./Components/Contacto";
 import Footer from "./Components/Footer";
 
+import { galeriaMonarcaResidencial } from "./index";
+import { galeriaCoralinaResidencial } from "./index";
+
 const App = () => {
+  const styles = {
+    marginSection: "mb-28",
+  };
+
   return (
     <div>
-      <Navbar />
-      <Inicio />
+      <div>
+        <Navbar />
+        <Inicio />
+      </div>
+      <NuestrasAlanzas marginBottom={styles.marginSection} />
+      <MisProyectos marginBottom={styles.marginSection} />
+      <Galeria
+        marginBottom={styles.marginSection}
+        title={galeriaMonarcaResidencial.title}
+        gallery={galeriaMonarcaResidencial.gallery}
+        imgLink={galeriaMonarcaResidencial.link}
+      />
+      <Nosotros marginBottom={styles.marginSection} />
+      <Galeria
+        marginBottom={styles.marginSection}
+        title={galeriaCoralinaResidencial.title}
+        gallery={galeriaCoralinaResidencial.gallery}
+      />
+      <VisionMision marginBottom={styles.marginSection} />
     </div>
   );
 };
