@@ -39,6 +39,7 @@ const App = () => {
         gallery={galeriaCoralinaResidencial.gallery}
       />
       <VisionMision marginBottom={styles.marginSection} />
+      <Reseñas />
     </div>
   );
 };
